@@ -20,23 +20,21 @@ class HomeWorkApp {
         }
         System.out.println(Arrays.toString(arr1));
 
-        int[] arr2 = new int[100];{
+        int[] arr2 = new int[100];
         arr2[0] = 0;
         System.out.println(Arrays.toString(arr2));
         for (int i = 1; i < arr2.length; i++){
         arr2[i] = i + 1;
         System.out.println(Arrays.toString(arr2));
         }
-        }
 
-        int[] arr3 = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};{
+        int[] arr3 = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         System.out.println(Arrays.toString(arr3));
         for (int i = 0; i < arr3.length; i++) {
         if (arr3[i] < 6)
         arr3[i] *= 2;
         }
         System.out.println(Arrays.toString(arr3));
-        }
 
         int[][] arr4 = new int[5][5];
         for (int i = 0; i < arr4.length; i++){
